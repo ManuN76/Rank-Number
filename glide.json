@@ -1,0 +1,38 @@
+{
+  "kind": "column",
+  "name": "Rank Number",
+  "description": "Ranks a sorted array or joined list",
+  "author": "Manu.n",
+  "params": [
+    {
+      "name": "array",
+      "displayName": "Array",
+      "type": { "kind": "array", "items": "number" }
+    },
+    {
+      "name": "jl",
+      "displayName": "Joined List",
+      "type": "string"
+    },
+    {
+      "name": "sep",
+      "displayName": "Separator ('|' default)",
+      "type": "string"
+    },
+    {
+      "name": "rankItem",
+      "displayName": "Rank Item",
+      "type": "number"
+    },
+    {
+      "name": "sort",
+      "displayName": "Order 1:Descending 0:Ascending (default)",
+      "type": "boolean"
+    }
+  ],
+  "result": {
+    "name": "rank",
+    "displayName": "Rank",
+    "type": "number"
+  }
+}
